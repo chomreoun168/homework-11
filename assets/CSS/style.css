@@ -1,0 +1,327 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* global selector */
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.btn-green{
+    background-color: #71C55D !important;
+}
+
+.width-300{
+    width: 310px !important;
+}
+
+.padding{
+    padding-block: 30px;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: -15px;
+    flex-wrap: wrap;
+}
+
+/* === Grid System === */
+
+.col-6{
+    width: 50%;
+    padding-inline: 15px;
+}
+
+.col-4{
+    width: 33.3333333334%;
+    padding-inline: 15px;
+}
+
+.col-3{
+    width: 25%;
+    padding-inline: 15px;
+}
+
+
+.container .navbar-brand {
+    font-size: 24px;
+    font-weight: 600;
+    align-content: center;
+    padding-left: 20px;
+}
+
+.navbar .navbar-nav{
+    display: flex;
+    list-style: none;
+
+}
+
+.navbar .nav-item{
+    padding: 15px 20px;
+}
+
+.navbar .nav-link{
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.navbar .menu{
+    font-size: 24px;
+    font-weight: 600;
+    align-content: center;
+    padding-left: 20px;
+    display: none;
+}
+
+
+/* === hero-banner === */
+.sec-hero-banner{
+    width: 100%;
+    height: auto;
+    background-color: #F1F6F1;
+}
+.hero-banner{
+    padding-top: 30px;
+}
+
+/* .container{
+    width: 1200px;
+    margin: auto;
+} */
+
+.hero-banner .container .hero-description{
+    align-content: center;
+    padding-top: 30px;
+}
+
+.hero-banner .container .hero-description h3{
+    font-size: 32px;
+    font-weight: 600;
+    color: #000;
+    
+}
+
+
+.hero-banner .container .hero-description p{
+    margin-block: 25px ;
+}
+
+
+.btn{
+    color: #fff;
+    border-radius: 30px ;
+    padding: 10px 40px;
+    border: 1px solid #000;
+    margin-right: 15px;
+}
+
+.btn-watch{
+    padding: 10px 20px;
+    border: transparent;
+    background-color: transparent;
+    color: #71C55D;
+    font-size: 14px;
+}
+
+
+/* === feature === */
+
+.feature .feature-in-box{
+    text-align: center;
+    padding: 65px 0px;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    margin-block: 30px;
+}
+
+.feature .feature-in-box .icon{
+    font-size: 36px;
+    color: #71C55D;
+    margin-block: 20px;
+}
+
+/* ==== who-we-are === */
+
+
+
+.who-we-are .col-6 .text-description h6{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: gray;
+}
+
+.who-we-are .text-description{
+    margin: 40px 0px;
+}
+
+.who-we-are .col-6 .text-description h3{
+    font-size: 28px;
+    font-weight: 600;
+}
+.who-we-are .col-6 .text-description p{
+    margin-block: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+}
+.who-we-are .col-6 .text-description ul li{
+    /* margin-right: -20px; */
+    margin-inline: 20px;
+    padding-block: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+}
+
+
+
+/* ==== Service ==== */
+
+.service{
+
+}
+
+.service .container{
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+
+.service .container h5{
+    text-align: center;
+    font-size: 14px;
+    color: #71C55D;
+}
+
+.service .container .header{
+    margin-bottom: 30px;
+}
+
+.service .container h4{
+    text-align: center;
+    font-size: 24px;
+}
+.service .container h4 span{
+    color: #71C55D;
+    font-size: 24px;
+}
+.service .detail{
+    padding: 30px 15px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+.service .detail .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #71C55D;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.service .detail h3{
+    margin-block: 15px;
+}
+
+.service .detail p{
+    margin-bottom: 30px;
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 1024px) {
+    .navbar .container{
+        padding-inline: 30px;
+    }
+    .hero-banner .container{
+        padding-inline: 30px;
+    }
+    .feature .container{
+        padding-inline: 30px;
+    }
+    .who-we-are .container{
+        padding-inline: 30px;
+    }
+    .service .container{
+        padding-inline: 30px;
+    }
+    .col-6 {
+        width: 50%;
+        padding: 15px;
+    }
+
+    .col-4 {
+        width: 50%;
+        padding: 15px;
+    }
+
+    .col-3 {
+        width: 50%;
+        padding: 15px;
+    }
+
+    .navbar .menu{
+        display: block;
+    }
+
+    .who-we-are .col-6 {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .navbar .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+
+    .width-300{
+        width: 310px !important;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    .col-6 {
+        width: 100%;
+    }
+
+    .col-4 {
+        width: 50%;
+    }
+
+    .col-3 {
+        width: 50%;
+    }
+
+    .navbar .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
